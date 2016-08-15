@@ -82,6 +82,11 @@ defaults:
         type: posts
       values:
         read_time: true
+        layout: single
+        author_profile: true
+        share: true
+        related: true
+
 
 # Site Author
 author:
