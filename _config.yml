@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Camden's Blog"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+title                    : "Camden's Dev Blog"
+title_separator          : "|"
+name                     : "Camden Bickel"
+description              : "Camden Bickel's dev blog."
+url                      : "https://www.camdenbickel.com"
+baseurl                  : "/blog"
+repository               : "camdenb/blog"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -74,15 +74,23 @@ analytics:
   google:
     tracking_id          :
 
+# Defaults
+defaults:
+    # _posts
+    - scope:
+        path: ""
+        type: posts
+      values:
+        read_time: true
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Camden Bickel"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : ""
+  location         : "Los Angeles / Boston"
   email            :
-  uri              :
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -100,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "camdenbickel"
   vine             :
   weibo            :
   xing             :
